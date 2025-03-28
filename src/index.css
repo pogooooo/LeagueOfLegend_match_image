@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'chaneyultra_extended';
+    src: url('../font/CHANEY-UltraExtended-webfont/chaney-ultraextended-webfont.eot');
+    src: url('../font/CHANEY-UltraExtended-webfont/chaney-ultraextended-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/CHANEY-UltraExtended-webfont/chaney-ultraextended-webfont.woff2') format('woff2'),
+    url('../font/CHANEY-UltraExtended-webfont/chaney-ultraextended-webfont.woff') format('woff'),
+    url('../font/CHANEY-UltraExtended-webfont/chaney-ultraextended-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-family: chaneyultra_extended, serif;
+}
