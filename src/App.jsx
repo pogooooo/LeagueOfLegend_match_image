@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LeagueOfLegend_match_image">
         <Routes>
             <Route path="/" element={<App/>} />
             <Route path="/leaderRacing/:roster/:position/:colors/:winner/:index/:constructor"  element={<LeaderRacing/>}></Route>
